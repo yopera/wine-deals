@@ -1,6 +1,6 @@
 // Wine Deals offline support: always try the network first so new sale data
 // shows up right away; fall back to the saved copy when there is no signal.
-const CACHE = 'wine-deals-v1';
+const CACHE = 'wine-deals-v2';
 const CORE = ['./', 'index.html', 'data.json', 'manifest.webmanifest',
   'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', e => {
